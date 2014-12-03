@@ -9,7 +9,7 @@ This tool is free to use forever.  The javascript, css, html, and other content 
 
 ===========
 
-The tool can also be customized:
+###The tool can also be customized:###
 
 Here's how this works: You will add an addSpoiler function call below the closing body tag Something like this: 
 
