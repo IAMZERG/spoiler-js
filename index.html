@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+</head>
+<body>
+
+	<h1>Welcome to the spoiler.js sample page!</h1>
+	<div>While on this page, you will learn how to use spoiler.js</div>
+	<div>This is a normal, classless div html element.  It shows up perfectly normal.</div>
+
+	<!--Each item with the class spoiler is hidden, but other items are not. -->
+	<div>The items below are not normal div elements.  They have the class spoiler added to them.</div>
+	
+
+	<div class="spoiler">Nothing to see here.  Just information that shouldn't be spoiled right away.</div>
+	<div class="spoiler">DotA is the best game ever invented.  Ok, maybe it's more a matter of opinion, but this works for random text to put into a spoiler...</div>
+	<div class="spoiler">This is a nested spoiler.<div class="spoiler">This is a nested spoiler.<div class="spoiler">You're special!</div></div></div>
+	<div>The spoiler below is different.  It's "special"</div>
+	<hr>
+	<div class="custom-spoiler">
+		In the spoilers below, the secrets of my script will be revealed!
+		<p class="spoiler">This is a test of a custom spoiler... maybe I want it styled differently than other spoilers, or I want the text in the button to be different?  Here's how this works: if you're reading this while looking at index.html in a text editor, you will see an addSpoiler function call below the closing body tag (here it is, just in case you're in a browser: addSpoiler(".custom-spoiler", "special-button", "My Spoiler");).  The first argument is a custom selector.  This is the class name you will use on all elements you want the custom spoiler to be used on.  Changing this will change the elements that are revealed or hidden when the button is pressed(note: addSpoiler is called as part of loading the script, so adding a function call is not necessary for normal function of spoiler.js, and was added for people using Bootstrap and doing special things).</p>
+		<p class="spoiler">The second argument is a space-separated string of classes to be added to the button.  If you're using Bootstrap, it will be necessary to add Bootstrap classes on this second argument, in addition to any others you'd like to add.</p>
+		<p class="spoiler">The third argument is the text that goes in the button.  Figured you might use this script for something other than a spoiler.  You're welcome.</p>
+		<p class="spoiler">If you have an idea for me, want to share what you're using this for, or just want to say thanks, shoot me a line at info@wrightonlineworks.com, find me on Twitter <a target="_blank" href="http://twitter.com/intent/tweet?screen_name=neverwrong487">@neverwrong487</a>, or find me on steam: <a target="_blank" href="http://steamcommunity.com/profiles/76561197972682789">IAMZERG</a></p>
+	</div>
+</body>
+	<script type="text/javascript" src="spoiler.js"></script>
+	<script> addSpoiler(".custom-spoiler", "special-button", "My Spoiler");</script>
+	
+<footer>
+</footer>
+</html>
