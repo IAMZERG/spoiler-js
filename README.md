@@ -1,4 +1,4 @@
-spoiler-js
+##Note: script currently requires jQuery.##
 ==========
 
 javascript tool for adding spoilers to a website... simply add the "spoiler" class to anything you want to add a spoiler to.  Example included inside.
@@ -23,4 +23,9 @@ Here's how this works: You will add an addSpoiler function call below the closin
 
 *The third argument* is the text that goes in the button. Figured you might find a use for this script other than as a spoiler. You're welcome.
 
+================
+
+##To Do:##
+
+Remove jQuery requirement... No need for this, and that's a lot of added bulk if you aren't already including jQuery.
 
