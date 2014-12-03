@@ -14,7 +14,7 @@ The tool can also be customized:
 Here's how this works: You will add an addSpoiler function call below the closing body tag Something like this: 
 
 ```javascript
-addSpoiler(".custom-spoiler", "special-button", "My Spoiler")
+<script>addSpoiler(".custom-spoiler", "special-button", "My Spoiler");</script>
 ```
 
 *The first argument* is a custom selector. This is the class name you will use on all elements you want the custom spoiler to be used on (note: addSpoiler is called as part of loading the script, so adding a function call is not necessary for normal function of spoiler.js, and was added for people using Bootstrap and doing special things).
